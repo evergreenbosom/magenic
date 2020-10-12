@@ -265,7 +265,7 @@ public class MagenicAutoHomeModel<CLOTHIN_TABLE_ROW> extends BaseSeleniumPageMod
 
     }
 
-    //Not Working As.
+    //Not Working As. Working on Single Class but not on framework.
 //    public void dragAndDropSourche(){
 //
 //        Actions act = new Actions(getWebDriver());
