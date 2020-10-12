@@ -10,6 +10,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class MagenicAutoHomeModel<CLOTHIN_TABLE_ROW> extends BaseSeleniumPageModel {
+    
+    /*
+    Connectiong to Jenkins
+    */
 
     /**
      * The URL for the page.
