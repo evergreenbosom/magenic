@@ -39,6 +39,7 @@ public class HomePageModel extends BaseSeleniumPageModel {
 
   /**
    * Check if home page has been loaded
+   Check if home page has been loaded
    *
    * @return True if the page was loaded
    */
