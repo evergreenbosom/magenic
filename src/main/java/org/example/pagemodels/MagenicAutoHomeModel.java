@@ -283,16 +283,21 @@ public class MagenicAutoHomeModel<CLOTHIN_TABLE_ROW> extends BaseSeleniumPageMod
 //    }
     public void dragAndDropSourcToTarget() throws InterruptedException {
         Actions act = new Actions(getWebDriver());
-        act.clickAndHold((WebElement) DRAG_AND_DROP_SOURCE4)
-                .moveToElement((WebElement) DRAG_AND_DROP_TARGET4)
-                .release();
+//        act.clickAndHold( DRAG_AND_DROP_SOURCE4)
+//                .moveToElement((WebElement) DRAG_AND_DROP_TARGET4)
+//                .release();
 
-        act.build()
-                .perform();
+//        act.build()
+//                .perform();
+//
+act.dragAndDrop(getWebDriver().findElement(DRAG_AND_DROP_SOURCE),getWebDriver().findElement(DRAG_AND_DROP_TARGET)).perform();
+
 
 
     }
-
+/*
+Action Class is not working, Need Help
+ */
     public void dragAndDropSourcToNewTarget() throws InterruptedException {
         Actions act = new Actions(getWebDriver());
         act.clickAndHold((WebElement) DRAG_AND_DROP_TARGET4)
@@ -362,7 +367,7 @@ public class MagenicAutoHomeModel<CLOTHIN_TABLE_ROW> extends BaseSeleniumPageMod
     }
 
     /*
-    Select Class not working.
+    Select Class not working, Need Help.
      */
     public static void selectValueFromDropDown(WebElement element, String value) {
         Select select = new Select(element);

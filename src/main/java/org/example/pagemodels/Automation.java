@@ -9,5 +9,27 @@ import com.magenic.jmaqs.utilities.helper.exceptions.ExecutionFailedException;
 import com.magenic.jmaqs.utilities.helper.exceptions.TimeoutException;
 import org.openqa.selenium.By;
 
+import javax.swing.text.ZoneView;
+import java.sql.SQLOutput;
+import java.time.ZonedDateTime;
+
 public class Automation {
+    private String message;
+    private ZonedDateTime timestamp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

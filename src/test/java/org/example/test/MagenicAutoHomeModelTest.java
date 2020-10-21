@@ -113,7 +113,7 @@ public class MagenicAutoHomeModelTest extends BaseSeleniumTest {
 
     }
 
-    // @Test(priority = 8)
+     @Test(priority = 8)
     public void dragAndDropTest() throws InterruptedException {
         MagenicAutoHomeModel page = new MagenicAutoHomeModel(this.getTestObject());
         page.openLoginPage();

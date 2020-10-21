@@ -20,6 +20,14 @@
             <groupId>com.magenic.jmaqs.selenium</groupId>
             <artifactId>jmaqs-selenium</artifactId>
             <version>${jmaqs.version}</version>
+
+
+        </dependency>
+
+        <dependency>
+            <groupId>com.rallydev.rest</groupId>
+            <artifactId>rally-rest-api</artifactId>
+            <version>2.2.1</version>
         </dependency>
     </dependencies>
     <build>
@@ -63,6 +71,14 @@
                 </executions>
                 <configuration>
                     <installationDirectory>${basedir}/src/test/resources/drivers</installationDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
